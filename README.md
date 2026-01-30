@@ -6,11 +6,13 @@ This project analyzes McDonald's Indonesia breakfast menu using data collected t
 This project demonstrates an end-to-end Data Analyst workflow, from data collection to insight generation.
 
 🌐 Data Source
+
 Website: https://www.mcdonalds.co.id/menu#Sarapan%20Pagi
 Data scope: Breakfast menu only (Sarapan Pagi)
 The website does not provide downloadable datasets; therefore, data was collected programmatically using web scraping techniques.
 
 🛠️ Data Collection (Web Scraping)
+
 Data was collected automatically, not manually.
 Web scraping was performed using Python, leveraging:
 requests
@@ -25,6 +27,7 @@ Collected attributes:
 The scraped data was stored as a CSV file for further analysis.
 
 🧹 Data Cleaning
+
 The following cleaning steps were applied:
 - Removed duplicate records
 - Checked for missing values (no missing values found)
