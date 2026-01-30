@@ -8,7 +8,9 @@ This project demonstrates an end-to-end Data Analyst workflow, from data collect
 🌐 Data Source
 
 Website: https://www.mcdonalds.co.id/menu#Sarapan%20Pagi
+
 Data scope: Breakfast menu only (Sarapan Pagi)
+
 The website does not provide downloadable datasets; therefore, data was collected programmatically using web scraping techniques.
 
 🛠️ Data Collection (Web Scraping)
@@ -19,6 +21,7 @@ requests
 BeautifulSoup
 
 Collected attributes:
+
 - product_name
 - product_link
 - image_url
@@ -29,10 +32,13 @@ The scraped data was stored as a CSV file for further analysis.
 🧹 Data Cleaning
 
 The following cleaning steps were applied:
+
 - Removed duplicate records
 - Checked for missing values (no missing values found)
 - Standardized column structure
+
 Final dataset contains 134 breakfast menu items.
 
 and more used;
+
 Exploratory Data Analysis (EDA)
