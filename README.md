@@ -1,6 +1,7 @@
 # McDonalds-Breakfast
 
 📌 Project Overview
+
 This project analyzes McDonald's Indonesia breakfast menu using data collected through web scraping from the official McDonald's Indonesia website. The analysis focuses on understanding the composition and structure of breakfast menu offerings, rather than the full McDonald's menu.
 This project demonstrates an end-to-end Data Analyst workflow, from data collection to insight generation.
 
